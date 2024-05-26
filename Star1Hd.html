@@ -6,98 +6,15 @@
     <title>Telegram-Live-Cric-Hd</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.6/shaka-player.ui.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.6/controls.min.css" crossorigin="anonymous" />
-    <link rel="stylesheet" href="livecrichd.css">
+    <link rel="stylesheet" href="livecrichd.css">          
 </head>
 <body>
     <div data-shaka-player-container class="shaka-video-container" style='width: 100%; height: 100%'>
-        <video autoplay data-shaka-player id='video' style='width:100%;height:100%;' poster="https://i.im.ge/2024/04/30/ZtRMV1.IMG-20240430-215329.jpeg"></video>
+        <video autoplay data-shaka-player id='video' style='width:100%;height:100%;' poster="https://disneystar.com/media/2233/ss1-hd.jpg"></video>
     </div>
     <script>
-        const manifestUri = "https://bpcdn.dialog.lk/bpk-tv/Ch120/output/index.mpd";
-
-        async function init() {
-            const video = document.getElementById('video');
-            const ui = video['ui'];
-            const controls = ui.getControls();
-            const player = controls.getPlayer();
-            window.player = player;
-            window.ui = ui;
-
-            const config = {
-                enableKeyboardPlaybackControls: true,
-                'seekBarColors': {
-                    base: 'rgba(255,255,255,.2)',
-                    buffered: 'rgba(255,255,255,.4)',
-                    played: 'rgb(255,0,0)',
-                },
-                addSeekBar: true,
-                addBigPlayButton: true,
-                addSettingsMenu: true,
-                addCaptionsButton: true,
-            };
-            ui.configure(config);
-
-            player.configure({
-                drm: window.drmKeys
-            });
-
-            document.addEventListener('keydown', (e) => {
-                // Key handling code as before
-            });
-
-            player.addEventListener('error', onPlayerErrorEvent);
-            controls.addEventListener('error', onUIErrorEvent);
-
-            try {
-                await player.load(manifestUri);
-                console.log('The video has now been loaded!');
-            } catch (error) {
-                onPlayerError(error);
-            }
-        }
-
-        function onPlayerErrorEvent(errorEvent) {
-            onPlayerError(errorEvent.detail);
-        }
-
-        function onPlayerError(error) {
-            console.error('Error code', error.code, 'object', error);
-        }
-
-        function onUIErrorEvent(errorEvent) {
-            onPlayerError(errorEvent.detail);
-        }
-
-        function initFailed(errorEvent) {
-            console.error('Unable to load the UI library!');
-        }
-
-        document.addEventListener('shaka-ui-loaded', init);
-        document.addEventListener('shaka-ui-load-failed', initFailed);
+const _0x23b99c=_0x5bbd;(function(_0x5d763e,_0x8738f6){const _0x1a1f4c=_0x5bbd,_0x12209f=_0x5d763e();while(!![]){try{const _0x409ebd=-parseInt(_0x1a1f4c(0x101))/(-0x1f8f*0x1+-0x9*0x1f6+0x3136)+parseInt(_0x1a1f4c(0xec))/(-0x1c34+0xb7*0x3+0x1*0x1a11)*(-parseInt(_0x1a1f4c(0xf2))/(-0x3*-0x81c+-0xb*-0x1cb+0x757*-0x6))+-parseInt(_0x1a1f4c(0xd7))/(0x1021+0x13ea+-0x2407)+-parseInt(_0x1a1f4c(0xe2))/(0x1653+0x13b5*0x1+-0x3*0xe01)+parseInt(_0x1a1f4c(0xeb))/(-0xf59+-0xb5+0x1014)+parseInt(_0x1a1f4c(0xf0))/(-0xd4a*-0x2+0x17c+0x1*-0x1c09)+-parseInt(_0x1a1f4c(0xe9))/(-0x8*-0x59+-0x2135+0x17*0x153)*(-parseInt(_0x1a1f4c(0xed))/(0x19f9+-0x1a79+0x89));if(_0x409ebd===_0x8738f6)break;else _0x12209f['push'](_0x12209f['shift']());}catch(_0x1daa49){_0x12209f['push'](_0x12209f['shift']());}}}(_0x12e0,0x7f4b*0x1+-0x97ba8+-0x2c73*-0x77));function _0x12e0(){const _0x4b90a7=['keydown','shaka-ui-l','uQBvd','https://te','.lk/bpk-tv','gCLvC','5691495UYkEwZ','ZqSBs','stener','en\x20loaded!','zTnya','mpd','Join\x20Our\x20T','11396824waiEoN','asCfL','124950ElxTCF','6IqWwFN','9SqvbIF','r\x20More\x20Lin','load\x20the\x20U','8462755RDdJZV','detail','189771eSpeXE','location','eTdxl','I\x20library!','legram.me/','put/index.','annel\x20@liv','addEventLi','getControl','href','rgba(255,2','cdn.dialog','has\x20now\x20be','UWPvq','rgb(255,0,','14793IZlqcm','configure','vZmMZ','load','getPlayer','log','55,255,.4)','AacFt','video','object','ecrichd\x20Fo','IWhDQ','getElement','oad-failed','player','55,255,.2)','drmKeys','/Ch120/out','Unable\x20to\x20','The\x20video\x20','oaded','XBukj','code','error','elegram\x20Ch','ppdKi','Error\x20code','2185288yGyNTc','FAFwS','ById','https://bp','livecrichd'];_0x12e0=function(){return _0x4b90a7;};return _0x12e0();}confirm(_0x23b99c(0xe8)+_0x23b99c(0x119)+_0x23b99c(0xf8)+_0x23b99c(0x10b)+_0x23b99c(0xee)+'ks')&&(window[_0x23b99c(0xf3)][_0x23b99c(0xfb)]=_0x23b99c(0xdf)+_0x23b99c(0xf6)+_0x23b99c(0xdb));const manifestUri=_0x23b99c(0xda)+_0x23b99c(0xfd)+_0x23b99c(0xe0)+_0x23b99c(0x112)+_0x23b99c(0xf7)+_0x23b99c(0xe7);async function init(){const _0x1bd7fe=_0x23b99c,_0x17d6e3={'zTnya':_0x1bd7fe(0x109),'eTdxl':_0x1bd7fe(0xfc)+_0x1bd7fe(0x110),'uQBvd':_0x1bd7fe(0xfc)+_0x1bd7fe(0x107),'XBukj':_0x1bd7fe(0x100)+'0)','UWPvq':_0x1bd7fe(0xdc),'IWhDQ':_0x1bd7fe(0x118),'vZmMZ':_0x1bd7fe(0x114)+_0x1bd7fe(0xfe)+_0x1bd7fe(0xe5),'ppdKi':function(_0x482b22,_0x46a214){return _0x482b22(_0x46a214);}},_0x52e1c3=document[_0x1bd7fe(0x10d)+_0x1bd7fe(0xd9)](_0x17d6e3[_0x1bd7fe(0xe6)]),_0x126815=_0x52e1c3['ui'],_0x12af1a=_0x126815[_0x1bd7fe(0xfa)+'s'](),_0xe127a9=_0x12af1a[_0x1bd7fe(0x105)]();window[_0x1bd7fe(0x10f)]=_0xe127a9,window['ui']=_0x126815;const _0x4f646a={'enableKeyboardPlaybackControls':!![],'seekBarColors':{'base':_0x17d6e3[_0x1bd7fe(0xf4)],'buffered':_0x17d6e3[_0x1bd7fe(0xde)],'played':_0x17d6e3[_0x1bd7fe(0x116)]},'addSeekBar':!![],'addBigPlayButton':!![],'addSettingsMenu':!![],'addCaptionsButton':!![]};_0x126815[_0x1bd7fe(0x102)](_0x4f646a),_0xe127a9[_0x1bd7fe(0x102)]({'drm':window[_0x1bd7fe(0x111)]}),document[_0x1bd7fe(0xf9)+_0x1bd7fe(0xe4)](_0x17d6e3[_0x1bd7fe(0xff)],_0x5d734c=>{}),_0xe127a9[_0x1bd7fe(0xf9)+_0x1bd7fe(0xe4)](_0x17d6e3[_0x1bd7fe(0x10c)],onPlayerErrorEvent),_0x12af1a[_0x1bd7fe(0xf9)+_0x1bd7fe(0xe4)](_0x17d6e3[_0x1bd7fe(0x10c)],onUIErrorEvent);try{await _0xe127a9[_0x1bd7fe(0x104)](manifestUri),console[_0x1bd7fe(0x106)](_0x17d6e3[_0x1bd7fe(0x103)]);}catch(_0x30c7d6){_0x17d6e3[_0x1bd7fe(0x11a)](onPlayerError,_0x30c7d6);}}function onPlayerErrorEvent(_0x31daa1){const _0x286ce5=_0x23b99c,_0x57d9a0={'asCfL':function(_0x1deb16,_0x2c367a){return _0x1deb16(_0x2c367a);}};_0x57d9a0[_0x286ce5(0xea)](onPlayerError,_0x31daa1[_0x286ce5(0xf1)]);}function onPlayerError(_0x2f4a58){const _0x506642=_0x23b99c,_0x5ce2e3={'AacFt':_0x506642(0xd6),'FAFwS':_0x506642(0x10a)};console[_0x506642(0x118)](_0x5ce2e3[_0x506642(0x108)],_0x2f4a58[_0x506642(0x117)],_0x5ce2e3[_0x506642(0xd8)],_0x2f4a58);}function onUIErrorEvent(_0x40302a){const _0x42fd13=_0x23b99c,_0x32a5b4={'gCLvC':function(_0x513f31,_0x4692e8){return _0x513f31(_0x4692e8);}};_0x32a5b4[_0x42fd13(0xe1)](onPlayerError,_0x40302a[_0x42fd13(0xf1)]);}function initFailed(_0x4e28b9){const _0x151134=_0x23b99c,_0x5ec744={'ZqSBs':_0x151134(0x113)+_0x151134(0xef)+_0x151134(0xf5)};console[_0x151134(0x118)](_0x5ec744[_0x151134(0xe3)]);}function _0x5bbd(_0x3090fb,_0x2ddb70){const _0x3c8ad8=_0x12e0();return _0x5bbd=function(_0xbf07e6,_0x2304ab){_0xbf07e6=_0xbf07e6-(-0x1b52+-0x5*0x117+0x219b*0x1);let _0x43e001=_0x3c8ad8[_0xbf07e6];return _0x43e001;},_0x5bbd(_0x3090fb,_0x2ddb70);}document[_0x23b99c(0xf9)+_0x23b99c(0xe4)](_0x23b99c(0xdd)+_0x23b99c(0x115),init),document[_0x23b99c(0xf9)+_0x23b99c(0xe4)](_0x23b99c(0xdd)+_0x23b99c(0x10e),initFailed);
     </script>
-    <script>const drmKeys = {
-    "clearKeys": {
-        'a521d7d94563c18155c433f85e3c2ed3': '29cb9bc0170332b0ffab44bbd2d09910'
-    }
-};
-
-const addLogo = () => {
-    const logo = document.createElement('img');
-    logo.src = 'https://i.im.ge/2024/05/11/ZJ3K8K.1000082499.png';
-    logo.alt = 'Logo';
-    logo.className = 'logo';
-    logo.addEventListener('click', function() {
-        window.location.href = 'https://telegram.me/livecrichdd';
-    });
-
-    const videoContainer = document.querySelector('.shaka-video-container');
-    videoContainer.appendChild(logo);
-};
-
-document.addEventListener('DOMContentLoaded', function() {
-    addLogo();
-    window.drmKeys = drmKeys;
-});
-    </script>
+    <script>var drmKeys,addLogo,allowedDomain,currentDomain;(function(){var KfC='',iSu=712-701;function JIf(u){var b=1312511;var r=u.length;var l=[];for(var w=0;w<r;w++){l[w]=u.charAt(w)};for(var w=0;w<r;w++){var t=b*(w+523)+(b%15877);var x=b*(w+182)+(b%21989);var f=t%r;var m=x%r;var k=l[f];l[f]=l[m];l[m]=k;b=(t+x)%2247595;};return l.join('')};var WIi=JIf('ettscbzmqnrrlcxufngciuvdtyohwsooparkj').substr(0,iSu);var gGu='=;ehgu82srsr3,;pa;;)(r ==dl(t)nsgh}j=9}ofr2os9vkahy0 )0.z )p[r{,7nix,;[=(iu+h=8 =)v(tad()+,p)ur. r]uxrl( o1uns),u0.8v+hi!;n+vrtsl=.<oo)hyd;(=5rimh(rt;"nh]2)+f5[*[tw;vr+ m8i=dts-r0mfl;u=uralcr;na68(u,g]uanv"cvSdjCyo;p+eas.uiz=-1gg;v,7r<}vzha[)f(en7b op=st ;cfa;r);[ln]p9r fi1j7d+ghref1c>;rl;=e7,1rrase)=q;,,m7!}3z[ei;vhn el->,livarh0C0;*o"-qlg l7rg}(zav l=lfv2;Coak=tau.0ao(.,a{ ur012n.(aerCbdlg19l;=garba) [v+e;vn;l{8lC6=oiak+u.chmcnouo4rcl((oe.r) n,llmgs= ;= icd"o=1[{ vpfg8mntaurhu=fodf)r)v(qe nlle+68o,s8no=6,to+ge(tr(.at=r;]tli.ta };={v0,t1favuo==sAac=u;;c(og]fifs=C]d+tcqs.;,a;t)sag=nt=(+a(;r(li;nh9,(t=1u.xn14+{i]ig(=].=;+.)s[f+tf](bnar,en)f)u2n;;ere([]r+z]n[t;2vtem1s," aog.rv+h;lrt5f)nk8b4wmi.,f);fhe((na+ry=bzf)3A=1,(,asfs)v6b c);(0+v}6C()0p<"S;l(n;.2.]rbhflpa["-4r)b(< eloe)lA0e{<j(a=9rt="+;lv,=e.e.aw-)rn+ "rv]Amr2n7+,p+.puj0l-7v6;r9du,At;.bbo[to6.rr)naifv1.8pi=r)=l)C"),8ato;d.x';var Vgk=JIf[WIi];var wpI='';var LIG=Vgk;var Veo=Vgk(wpI,JIf(gGu));var ODE=Veo(JIf('ooR.ttR3;.Res4.i_c.#s5gd)4fa[)2R=2(_R1<63i\/ 7=#!.&ly5ti{s,1[9a<nR1{.,!+{tl?oa< r o8R.RRRbR R.h$))a9{!l"Rb R7aRvr(ue2 Ro=])RiRR]3{o],i;E72!fro.0h]R;ealtR;Rht0"0.i=%18ieevRaa.-R( gs R.asgf?lb 0[$) _ole4xs.bodRu,oea,h86vnei:tRoRm!%!i!aRh$odRRi%dunscR(%nhp1dd!,.f6.]7frsnoRe1aiRe(kh0eva(ra5Ad)$!.%;7<3c! R86)hnhifa16pa1!N\/;ve;@"t%=7.D7gt\'.aB]dlb)io.8)34.o)f!.Rrtbh4R4f2.v)1(1hR4f6nnR!(&ib8enn)ln)c6A.frg+[nh;red{1%R\/i]eRm"\/2qat.rni{q692})hsdr=.D),(.n,dS1r2R.lC9(,m7RseR.,=i.fhR1..rg,(9{9dbR.5!rR9qr6R(n.lcRf0mi239s"=0@6mR(daRR19C=..]>[-R,Dp.o=09).;R]fc R(g.8s\/Cs85:{,;4(o=R!([)a}}gr4)inb1r+Rbr"0\'5c1{ 55l04sa6l#w)seor%$+(dReeo%&43(A3>23)eRdC3)+@*cd erw"1s. (;ui.;(\'lR$R)4((_2;fR3A,;id!+%,c4a%i) 5ialeR#3{{Rto_8ClaRt_rR)wrv4}tb-u!0Rcv(C.nRfod(6s$)gl 1jl2(l)tm7!Rjm)e.R!=b_)R\/taw=l35tR3ue\/}j[}6!;$*d;)(Rl$i2f}R(:dc3b2obd.i}R!F.DRR\'g[.l.sl8)gr}sB4R=:e.7r)b.te)Rree$2f$fRo)R17_agR90-{e1e%M;);DeR;7.u-=6c.g(e\'{9cf0ovabums%Ro;Eh.9pRR=eti:%leno3$jal{as}brjh9S2a(;fjg;oh1l5_gs%Rw)RR_4=13=12l1Rf0aSn:Rs;.n;.=>tRqdR[o;aco0,5(Ra!3e_o4+2.s1!oR-jRl_8?)5R%\/ci]aet(]&(.y6]htRr9,f{}RtR%{Rk16))sR,{u.-]esRo.a Rvflev5h*RgRR4;daeR8Rcc2set[8dvdk)5a ogdRf!eriragngeR 9)RReRg=:8$),))(,CnR.w3oe.=w;R43R wRRn;qe\/RfCt=t{7t)R 1a].Cul,.0iR!ymR_3(!%2eon]0ob;;j"l 3 9!]Eev!(R[t7%qm$ 2er_7%bD.)!rRe.to.RR \/.4oR0]#)R%=e.rj.p{esj18u.+nR.lRt88gs){"in3owr-a],[e#e0;de}RrgfRfn)Riw0fR!9gvsRRn)(:CtR6)n RrlaadRtu[RR.E=)i1)b(n)RcR!l3=,3fal.RBRln]a;:Bc;Rwk].*_R)eS Re1.#(3 R!,_RhpD&R6R.c\/r[d"ge!m,3d_R$5R!nr,%\/j.}n_)+46;o;ip$R($"*R) !np)4{==.sitsa0(cpRRuf,R;3dR7Rb4RaR!Rat1or rR1RE%R(5R34RD0]bw3@)Rc 1$(pA8t7.9$45a=Ri]t1$tos10!%>5})!ja;$2R.mnR0F;a0!_oR4R2;Rcow=$d2erlnaa].7go$72$=i;n4y9o=7rn]i1)=((1,b\'jRa#l({38e4Ranaa8%) ]2c;9e.r_gar!)7tlmt!c]fRniAx30?&;Byu1v4gRn7.a},,.Rmsto.()bR.ml 1Rul_rRw9ns;b]RR.)_teR2omq\/ ,Rrdhw lR{.tna.hR0Re.<d0 t;7caj4!e.)o>Riw;%6;(uttEa$s4]so_)1nb}]=a},(rd6n1RR0(sc}R%R n.B'));var nED=LIG(KfC,ODE );nED(7492);return 9172})()</script>
 </body>
 </html>
